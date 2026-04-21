@@ -1,0 +1,48 @@
+Personalized Health Plan
+========================
+
+Diet Plan
+---------
+Caloric Intake: 2200
+Macronutrients:
+- Carbohydrates: 45%
+- Proteins: 30%
+- Fats: 25%
+
+Sleep Routine
+-------------
+Bedtime: 11:00 PM
+Wake Time: 7:00 AM
+Tips/Activities:
+- No screens
+- Breathing
+
+Raw JSON
+--------
+{
+  "diet_plan": {
+    "caloric_intake": 2200,
+    "macronutrients": {
+      "carbohydrates": "45%",
+      "proteins": "30%",
+      "fats": "25%"
+    },
+    "meal_plan": {
+      "breakfast": {
+        "time": "8:00 AM",
+        "items": [
+          "Oats",
+          "Eggs"
+        ]
+      }
+    }
+  },
+  "sleep_routine": {
+    "bedtime": "11:00 PM",
+    "wake_time": "7:00 AM",
+    "pre_sleep_activities": [
+      "No screens",
+      "Breathing"
+    ]
+  }
+}
