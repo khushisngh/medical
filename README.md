@@ -3,7 +3,6 @@
 ![MediRAG Banner](./Images/Home.png)
 
 ## 📋 Overview
-
 MediRAG is a comprehensive healthcare platform that leverages artificial intelligence to provide accessible, personalized healthcare solutions. Built with modern web technologies including JavaScript, TypeScript, and Node.js, it aims to revolutionize patient care, streamline medical processes, and provide easy access to health-related information and services.
 
 > 💡 **Vision**: Making quality healthcare accessible through intelligent technology integration
