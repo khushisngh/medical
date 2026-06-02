@@ -1,7 +1,8 @@
 // src/api/appointmentApi.ts
 import axios from 'axios';
+import { apiUrl } from '../config/api';
 
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = apiUrl('/api');
 
 export const getAppointments = () => axios.get(`${BASE_URL}/appointments`);
 export const createAppointment = (appointmentData: any) => axios.post(`${BASE_URL}/appointments`, appointmentData);

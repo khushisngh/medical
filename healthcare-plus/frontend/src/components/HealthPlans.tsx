@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Utensils, Moon, AlertCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { apiUrl } from '../config/api';
 
 interface HealthPlanData {
   diet_plan: {
@@ -156,7 +157,7 @@ const HealthPlans: React.FC = () => {
     setHealthPlanText(null);
 
     try {
-      const response = await fetch('http://localhost:3001/api/HealthPlans', {
+      const response = await fetch(apiUrl('/api/HealthPlans'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

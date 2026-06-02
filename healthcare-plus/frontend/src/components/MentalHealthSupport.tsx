@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Mic, Send, Paperclip, Video, X, User, Bot, Minus, Plus } from 'lucide-react';
+import { apiUrl } from '../config/api';
 
 interface Message {
   id: string;
@@ -107,7 +108,7 @@ const MentalHealthSupport: React.FC = () => {
   const sendMessageToBackend = async (message: string) => {
     setIsLoading(true);
     try {
-      const response = await fetch('http://localhost:3001/api/mental-health-chat', {
+      const response = await fetch(apiUrl('/api/mental-health-chat'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
