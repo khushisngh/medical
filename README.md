@@ -223,14 +223,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - React and Node.js communities for excellent documentation
 - All contributors who have helped improve this project
 
-## 📞 Contact
-
-Your Name - arkavaiya@gmail.com
-
-Project Link: [https://github.com/your-username/healthcare-website](https://github.com/Yash-Kavaiya/MediRAG)
-
----
-
 <div align="center">
 
 **MediRAG** - Your Partner in Modern Healthcare
