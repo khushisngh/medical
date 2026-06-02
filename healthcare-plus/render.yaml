@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: menrag-backend
+    env: node
+    rootDir: healthcare-plus/backend
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: VISION_MODEL
+        value: meta-llama/llama-3.2-11b-vision-instruct:free
